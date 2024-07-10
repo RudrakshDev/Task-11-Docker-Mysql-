@@ -1,4 +1,4 @@
-# Task-11-Docker-Mysql
+![Screenshot 2024-07-10 055929](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/c1fa4129-04cf-4e73-9660-f58e1f65908e)# Task-11-Docker-Mysql
 
 ## Setting Up MySQL with Docker and Vanilla JavaScript for Testing Database Connections
 
@@ -8,7 +8,7 @@
 docker run --name container-name -e MYSQL_ROOT_PASSWORD=mysql-password -e MYSQL_DATABASE=mysql-database -p custom-port-number:3306 -d mysql
 ```
 
-![Screenshot (136)](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/99b87795-0c58-4c5d-a385-5846c8ed0753)
+![Screenshot (136)](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/6857b0cf-9049-40f2-a2d6-6816e76c1a6a)
 
 ### 2. Verify Container Status
 
@@ -24,7 +24,7 @@ docker ps
  npm init -y
 ```
 
-  ![Screenshot 2024-07-10 054538](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/245df3c1-4954-49ef-8b23-7142aff1ae5e)
+![image](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/a5a8532c-2bda-4a0d-9533-62d2c6682881)
 
 ```
 npm i mysql2
@@ -32,11 +32,15 @@ npm i mysql2
 
 ![Screenshot 2024-07-10 055454](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/2ee77b2b-296f-42a6-98b7-c4ce34059cc4)
 
-#### Create an `index.js` file and write the code in it.
+#### Create an `index.js` file and write the above given index.js code.
 
+![Uploading Screenshot 2024-07-10 055929.png…](
 
 ```
 node index.js
 ```
+
+![Screenshot 2024-07-10 055920](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/b133ced1-3a8d-4ac6-b9c6-94e7b41f3a82)
+
 
 
