@@ -1,6 +1,6 @@
-# Task-11-Docker-Mysql
+# Task-11 Docker (Mysql)
 
-## Setting Up MySQL with Docker and Vanilla JavaScript for Testing Database Connections
+### Setting Up MySQL with Docker and Vanilla JavaScript for Testing Database Connections
 
 ### 1. Set up MySQL Using Docker
 
