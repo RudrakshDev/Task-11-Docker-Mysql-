@@ -32,10 +32,33 @@ npm i mysql2
 
 ![Screenshot 2024-07-10 055454](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/2ee77b2b-296f-42a6-98b7-c4ce34059cc4)
 
-#### Create an `index.js` file and write the above given index.js code.
+#### Create an `index.js` file and write the following code in it:
 
-![image](https://github.com/RudrakshDev/Task-11-Docker-Mysql-/assets/170597596/b7e8718a-833f-4d5e-8a60-cf7149a3d52a)
+```
+const mysql = require('mysql2');
 
+const connection = mysql.createConnection({
+    host: 'localhost',
+    port: '9306',
+    user: 'root',
+    password: 'helloworld',
+    database: 'rudrakshDB' 
+});
+
+connection.connect((err) => {
+    if (err) {
+        console.error('Error connecting to MySQL:', err.stack);
+        return;
+    }
+    console.log('Connected to MySQL as ID:', connection.threadId);
+    
+
+    connection.end();
+});
+
+```
+
+### Run the index.js file
 ```
 node index.js
 ```
